@@ -50,6 +50,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-fixtures
 BuildRequires:  python3-mock
+BuildRequires:  python3-six
 
 Requires:       python3-setuptools
 Requires:       python3-pbr
@@ -68,6 +69,7 @@ and will continue to evolve over time.
 %package -n python-%{pypi_name}-doc
 Summary: Documentation for bashate module
 
+BuildRequires:  python-six
 BuildRequires:  python-sphinx
 BuildRequires:  python-oslo-sphinx
 BuildRequires:  python-reno
